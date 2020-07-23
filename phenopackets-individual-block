@@ -1,0 +1,3495 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/dob\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/dob\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "obo:NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/dob\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/dob\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Individual : sex using expression value.replace(\"obo:\",\"http://purl.obolibrary.org/obo/\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Individual : sex",
+    "expression": "value.replace(\"obo:\",\"http://purl.obolibrary.org/obo/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Individual : taxonomy",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Individual : taxonomy",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "obo:NCBITaxon_9606"
+        ],
+        "to": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "curie": "obo:NCBITaxon_9606"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/study/ibm/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"study/ibm/sujbect/\" + value + \"/alternativeid\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : alternate_ids",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C90353",
+              "curie": "http://purl.obolibrary.org/obo/NCIT_C90353"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : alternate_ids"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/study/ibm/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/dob\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/alternativeid\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : alternate_ids",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C90353",
+              "curie": "http://purl.obolibrary.org/obo/NCIT_C90353"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : alternate_ids"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "Individual : date_of_birth"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/study/ibm/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/dob\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/karyotypic-sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/alternativeid\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : alternate_ids",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C90353",
+              "curie": "http://purl.obolibrary.org/obo/NCIT_C90353"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : alternate_ids"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "Individual : date_of_birth"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/karyotypic-sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25215",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : karyotypic_sex"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/study/ibm/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/age\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/dob\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value + \"/attribute/karyotypic-sex\"",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/alternativeid\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : alternate_ids",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C90353",
+              "curie": "http://purl.obolibrary.org/obo/NCIT_C90353"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : alternate_ids"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "Individual : date_of_birth"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/karyotypic-sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25215",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : karyotypic_sex"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/study/ibm/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/age\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/sex\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/dob\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : date_of_birth",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/karyotypic-sex\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : karyotypic_sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/alternativeid\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : alternate_ids",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C90353",
+              "curie": "http://purl.obolibrary.org/obo/NCIT_C90353"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : alternate_ids"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "Individual : date_of_birth"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/karyotypic-sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25215",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : karyotypic_sex"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/study/ibm/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/age\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/sex\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/dob\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : date_of_birth",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/karyotypic-sex\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : karyotypic_sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/alternativeid\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : alternate_ids",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C90353",
+              "curie": "http://purl.obolibrary.org/obo/NCIT_C90353"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : alternate_ids"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "Individual : date_of_birth"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/karyotypic-sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25215",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : karyotypic_sex"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/study/ibm/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "sio",
+          "uri": "http://semanticscience.org/resource/"
+        },
+        {
+          "name": "obo",
+          "uri": "http://purl.obolibrary.org/obo/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/age\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "sio:SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/sex\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : taxonomy",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/dob\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : date_of_birth",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000008",
+              "curie": "http://semanticscience.org/resource/SIO_000008",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if (value == null, null, (\"subject/\"+ cells[\"Individual : id\"].value + \"/attribute/karyotypic-sex\"))",
+                "isRowNumberCell": false,
+                "columnName": "Individual : karyotypic_sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/id\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C25364",
+              "curie": "obo:NCIT_C25364"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/age\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25150",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : age"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "sio:SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "sio:SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C28421",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "sio:SIO_000300",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : sex",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/alternativeid\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : alternate_ids",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.obolibrary.org/obo/NCIT_C90353",
+              "curie": "http://purl.obolibrary.org/obo/NCIT_C90353"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : alternate_ids"
+              }
+            },
+            {
+              "uri": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "curie": "http://purl.obolibrary.org/obo/IAO_0000219",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"subject/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : id",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/dob\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C68615",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "Individual : date_of_birth"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"subject/\" + value + \"/attribute/karyotypic-sex\"",
+          "isRowNumberCell": false,
+          "columnName": "Individual : id",
+          "rdfTypes": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000614",
+              "curie": "http://semanticscience.org/resource/SIO_000614"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000332",
+              "curie": "http://semanticscience.org/resource/SIO_000332",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C25215",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://semanticscience.org/resource/SIO_000300",
+              "curie": "http://semanticscience.org/resource/SIO_000300",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Individual : karyotypic_sex"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
